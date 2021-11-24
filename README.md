@@ -1,5 +1,7 @@
 # Born2beRoot with Bonus part  
-
+  
+certutil -hashfile b2br.vdi sha1   
+  
 что такое ВМ  
 установка ВБ  
 выбор операционной системы Дебиан  
