@@ -1,4 +1,8 @@
 # commands
+  
+```
+certUtil -hashfile b2br.vdi sha1
+```
 ```
 apt install sudo vim ufw libpam-pwquality -y  
 ```
