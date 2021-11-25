@@ -4,7 +4,7 @@
 certUtil -hashfile b2br.vdi sha1
 ```
 ```
-apt install sudo vim ufw libpam-pwquality -y  
+apt install sudo vim ufw libpam-pwquality lighttpd MariaDB PHP -y  
 ```
 ```
 lsblk
@@ -16,3 +16,5 @@ usermod -aG <group> <user>
 gpasswd -a <user> <group>  
 passwd   
 tty sudo shvt №tty  
+  
+poweroff reboot logout exit  
