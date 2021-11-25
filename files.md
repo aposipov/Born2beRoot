@@ -1,4 +1,4 @@
-#file for edit
+# file for edit
 
 `/etc/ssh/sshd_config`  
 Port 4242  
