@@ -6,7 +6,9 @@ certUtil -hashfile b2br.vdi sha1
 ```
 apt install sudo vim ufw libpam-pwquality -y  
 ```
-  
+```
+lsblk
+```
 ufw (ufw enable/ufw allow/ufw status verbose)  
 groups groupadd  
 useradd adduser  
