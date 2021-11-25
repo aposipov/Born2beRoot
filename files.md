@@ -1,13 +1,13 @@
-# file for edit
+# files for edit
 
 `/etc/ssh/sshd_config`  
 Port 4242  
 PermitRootLogin: no  
   
 `/etc/sudoers`
-Defaults  badpass_message="Your phrase"
-Defaults  passwd_tries=3
-Defaults  logfile=/var/log/sudo/sudo.log
+Defaults  badpass_message="Your phrase"  
+Defaults  passwd_tries=3  
+Defaults  logfile=/var/log/sudo/sudo.log  
 Defaults  log_input,log_output  
 Defaults  iolog_dir="/var/log/sudo/"  
 Defaults  requiretty  
