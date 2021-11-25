@@ -4,7 +4,7 @@
 certUtil -hashfile b2br.vdi sha1
 ```
 ```
-apt install sudo vim ufw libpam-pwquality lighttpd mariadb-server php php-cgi php-mysql -y  
+apt install sudo vim ufw libpam-pwquality wget tar lighttpd mariadb-server php php-cgi php-mysql -y  
 ```
 ```
 lsblk
