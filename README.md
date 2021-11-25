@@ -15,7 +15,7 @@ certutil -hashfile b2br.vdi sha1
 9 groups user42 (groupadd adduser deluser)
 10 password policy  
 
-apt install sudo vim ufw
+apt install sudo vim ufw libpam-pwquality -y
   
 apt apt-get https://losst.ru/apt-vs-apt-get-v-chem-raznitsa  
 `systemctl reboot`  
