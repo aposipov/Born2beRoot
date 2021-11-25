@@ -10,3 +10,8 @@ certutil -hashfile b2br.vdi sha1
 apt apt-get https://losst.ru/apt-vs-apt-get-v-chem-raznitsa  
 `systemctl reboot`  
 `systemctl poweroff`  
+
+useful videos:  
+https://www.youtube.com/watch?v=mwSwiq_4Cw0  
+https://www.youtube.com/watch?v=7GvJaPuJ2ko  
+https://www.youtube.com/watch?v=13YBlD0SOJo
