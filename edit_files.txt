@@ -1,6 +1,9 @@
   
 
-
+/etc/sudoers
+Defaults  badpass_message="Your phrase"
+Defaults  passwd_tries=3
+Defaults  logfile=/var/log/sudo/sudo.log
 
 /etc/login.defs  
 PASS_MAX_DAYS 30  
