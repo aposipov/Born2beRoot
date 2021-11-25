@@ -12,8 +12,8 @@ certutil -hashfile b2br.vdi sha1
 6 aptitude apt  
 7 SSH 4242  
 8 UFW default allow port
-9 groups user42
-
+9 groups user42 (groupadd adduser deluser)
+10 password policy  
 
 apt install sudo vim ufw
   
