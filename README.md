@@ -2,11 +2,21 @@
   
 certutil -hashfile b2br.vdi sha1   
   
-что такое ВМ  
+1 что такое ВМ  
 установка ВБ  
-выбор операционной системы Дебиан  
+2 Xorg
+3 Centos Debian  выбор операционной системы Дебиан  
 установка ОС разбивка разделов для бонус части при помощи ЛВМ, что такое ЛВМ (при установке использовать легкие пароли, var-log)   
-установка sudo vim    
+4 SElinux AppArmor  
+5 LVM  
+6 aptitude apt  
+7 SSH 4242  
+8 UFW default allow port
+9 groups user42
+
+
+apt install sudo vim ufw
+  
 apt apt-get https://losst.ru/apt-vs-apt-get-v-chem-raznitsa  
 `systemctl reboot`  
 `systemctl poweroff`  
