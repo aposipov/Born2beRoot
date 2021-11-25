@@ -4,7 +4,7 @@
 Port 4242  
 PermitRootLogin: no  
   
-`/etc/sudoers`
+`/etc/sudoers`  
 Defaults  badpass_message="Your phrase"  
 Defaults  passwd_tries=3  
 Defaults  logfile=/var/log/sudo/sudo.log  
