@@ -1,6 +1,8 @@
-  
+# commands
+```
 apt install sudo vim ufw libpam-pwquality -y  
-    
+```
+  
 ufw (ufw enable/ufw allow/ufw status verbose)  
 groups groupadd  
 useradd adduser  
