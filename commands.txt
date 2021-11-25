@@ -7,3 +7,4 @@ useradd adduser
 usermod -aG <group> <user>  
 gpasswd -a <user> <group>  
 passwd   
+tty sudo shvt №tty  
