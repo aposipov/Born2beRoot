@@ -39,10 +39,10 @@ poweroff reboot logout exit
 Заходим в браузере по `ip 127.0.0.1` попадаем на посадочную страницу
   
 # PHP
-`apt install php php-cgi php-mysql`
-`lighty-enable-mod fastcgi` запускам север в режиме fastcgi
-`lighty-enable-mod fastcgi-php` подключаем к сереверу php
-`service lighttpd force-reload` перезагружаем сервис
+`apt install php php-cgi php-mysql`  
+`lighty-enable-mod fastcgi` запускам север в режиме fastcgi  
+`lighty-enable-mod fastcgi-php` подключаем к сереверу php  
+`service lighttpd force-reload` перезагружаем сервис  
   
   
   
