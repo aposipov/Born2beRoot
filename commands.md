@@ -46,9 +46,9 @@ poweroff reboot logout exit
   
 # Wordpress
 `su`  
-`wget https://ru.wordpress.org/latest-ru_RU.tar.gz`
-`cp latest-ru_RU.tar.gz /var/www/html/`
-`tar -xvzf latest-ru_RU.tar.gz`
+`wget https://ru.wordpress.org/latest-ru_RU.tar.gz`  
+`cp latest-ru_RU.tar.gz /var/www/html/`  
+`tar -xvzf latest-ru_RU.tar.gz`  
  
  
   
