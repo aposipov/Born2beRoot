@@ -50,5 +50,9 @@ poweroff reboot logout exit
 `cp latest-ru_RU.tar.gz /var/www/html/`  
 `tar -xvzf latest-ru_RU.tar.gz`  
  
- 
+ # folders
+`$chown -R www-data:www-data /var/www/html/wordpress`  
+`$find /var/www/html/wordpress -type d -exec chmod 750 {} \;`  
+`$find /var/www/html/wordpress -type f -exec chmod 640 {} \;`  
+
   
