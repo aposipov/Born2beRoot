@@ -11,7 +11,8 @@ Defaults  logfile=/var/log/sudo/sudo.log
 Defaults  log_input,log_output  
 Defaults  iolog_dir="/var/log/sudo/"  
 Defaults  requiretty  
-
+  
+# password policy
 `/etc/login.defs`  
 PASS_MAX_DAYS 30  
 PASS_MIN_DAYS 2  
