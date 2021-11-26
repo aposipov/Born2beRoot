@@ -59,11 +59,25 @@ poweroff reboot logout exit
 `http://127.0.0.1/wordpress`  
 
 # vsftpd
-apt install vsftpd  
-service vsftpd stop  
+`apt install vsftpd`  
+`service vsftpd stop`  
 /etc/vsftpd.conf  
 write_enable=YES  
 chroot_local_user=YES    
-ufw allow 20  
+`ufw allow 20`  
 /etc/init.d/vsftpd start  
 /etc/init.d/vsftpd status  
+  
+# mail server
+`apt install mailutils postfix -y`
+/etc/postfix/main.cf
+
+`mailbox_size_limit = 0
+recipient_delimiter = +
+inet_interfaces = loopback-only`
+  
+`mydestination = $myhostname, localhost.$mydomain, $mydomain`
+  
+  
+  
+
