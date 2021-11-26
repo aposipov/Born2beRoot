@@ -18,3 +18,16 @@ passwd
 tty sudo shvt №tty  
   
 poweroff reboot logout exit  
+
+# MariaDB
+su - войти под рутом  
+apt install mariadb-server - установка  
+mysql_secure_installation - настройка (везде yes, кроме установки пароля рута и в первом запросе нажать Enter)  
+mariadb войти в оболочку дб  
+CREATE DATABASE wordpress; создание дб  
+CREATE USER '<user>'@'localhost' IDENTIFIED BY 'password'; создание пользователя для дб  
+GRANT ALL ON wordpress.* TO '<user>'@'localhost'; привилегии для пользователя  
+FLUSH PRIVILEGES;  
+exit  
+mariadb -u <user> -p вход под пользователем  
+SHOW DATABASES; проверка созданной БД  
