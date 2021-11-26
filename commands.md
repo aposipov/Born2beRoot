@@ -31,3 +31,10 @@ poweroff reboot logout exit
 `exit`  
 `mariadb -u <user> -p` вход под пользователем  
 `SHOW DATABASES;` проверка созданной БД  
+
+# lighttpd
+apt install lighttpd установка  
+/etc/lighttpd/lighttpd.conf разрешаем доступ по порту сервера ufw allow 80  
+Пробрасываем порты в virtualbox 80  
+Заходим в браузере по ip 127.0.0.1 попадаем на посадочную страницу  
+  
