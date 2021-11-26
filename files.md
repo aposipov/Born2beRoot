@@ -21,7 +21,8 @@ PASS_WARN_AGE 7
 `/etc/pam.d/common-password`  
 password        requisite	pam_pwquality.so retry=3 maxrepeat=3 minlen=10 dcredit=-1 ucredit=-1 difok=7 usercheck=1
 password        requisite	pam_pwquality.so retry=3 maxrepeat=3 minlen=10 dcredit=-1 ucredit=-1 usercheck=1 enforce_for_root  
-  
+
+# tty?
 `/etc/systemd/logind.conf`
 ???  
 NAutoVTs=8  
