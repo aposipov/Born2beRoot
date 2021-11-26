@@ -33,8 +33,16 @@ poweroff reboot logout exit
 `SHOW DATABASES;` проверка созданной БД  
 
 # lighttpd
-apt install lighttpd установка  
-/etc/lighttpd/lighttpd.conf разрешаем доступ по порту сервера ufw allow 80  
+`apt install lighttpd` установка  
+`/etc/lighttpd/lighttpd.conf` разрешаем доступ по порту сервера `ufw allow 80`  
 Пробрасываем порты в virtualbox 80  
-Заходим в браузере по ip 127.0.0.1 попадаем на посадочную страницу  
+Заходим в браузере по `ip 127.0.0.1` попадаем на посадочную страницу
+  
+# PHP
+`apt install php php-cgi php-mysql`
+`lighty-enable-mod fastcgi` запускам север в режиме fastcgi
+`lighty-enable-mod fastcgi-php` подключаем к сереверу php
+`service lighttpd force-reload` перезагружаем сервис
+  
+  
   
