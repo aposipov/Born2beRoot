@@ -44,5 +44,11 @@ poweroff reboot logout exit
 `lighty-enable-mod fastcgi-php` подключаем к сереверу php  
 `service lighttpd force-reload` перезагружаем сервис  
   
-  
+# Wordpress
+`su`  
+`wget https://ru.wordpress.org/latest-ru_RU.tar.gz`
+`cp latest-ru_RU.tar.gz /var/www/html/`
+`tar -xvzf latest-ru_RU.tar.gz`
+ 
+ 
   
