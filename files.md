@@ -26,6 +26,6 @@ password        requisite	pam_pwquality.so retry=3 maxrepeat=3 minlen=10 dcredit
 NAutoVTs=8  
 ReserveVT=8  
 
-#hostname
-`/etc/hostname`
-`/etc/hosts`
+# hostname
+`/etc/hostname`  
+`/etc/hosts`  
