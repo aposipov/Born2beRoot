@@ -69,7 +69,9 @@ chroot_local_user=YES
 /etc/init.d/vsftpd status  
   
 # mail server
-`apt install mailutils postfix -y`  
+```
+apt install mailutils postfix -y
+```
 /etc/postfix/main.cf редактируем файл  
 
 `mailbox_size_limit = 0`  
@@ -77,7 +79,10 @@ chroot_local_user=YES
 `inet_interfaces = loopback-only`  
   
 `mydestination = $myhostname, localhost.$mydomain, $mydomain`  
-  
+ ```
+ sudo systemctl restart postfix
+ ```  
+ https://www.8host.com/blog/ustanovka-i-nastrojka-smtp-servera-isxodyashhej-pochty-postfix-v-debian-10/
   
   
 
