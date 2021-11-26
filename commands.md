@@ -67,6 +67,7 @@ chroot_local_user=YES
 `ufw allow 20`  
 /etc/init.d/vsftpd start  
 /etc/init.d/vsftpd status  
+https://routerus.com/how-to-setup-ftp-server-with-vsftpd-on-ubuntu-20-04/
   
 # mail server
 ```
