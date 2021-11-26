@@ -58,3 +58,12 @@ poweroff reboot logout exit
 # setup wordpress
 `http://127.0.0.1/wordpress`  
 
+# vsftpd
+apt install vsftpd  
+service vsftpd stop  
+/etc/vsftpd.conf  
+write_enable=YES  
+chroot_local_user=YES    
+ufw allow 20  
+/etc/init.d/vsftpd start  
+/etc/init.d/vsftpd status  
