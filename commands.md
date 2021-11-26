@@ -72,9 +72,9 @@ chroot_local_user=YES
 `apt install mailutils postfix -y`  
 /etc/postfix/main.cf редактируем файл  
 
-`mailbox_size_limit = 0  
-recipient_delimiter = +  
-inet_interfaces = loopback-only`  
+`mailbox_size_limit = 0`  
+`recipient_delimiter = +`  
+`inet_interfaces = loopback-only`  
   
 `mydestination = $myhostname, localhost.$mydomain, $mydomain`  
   
