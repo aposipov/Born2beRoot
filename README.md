@@ -20,6 +20,11 @@ apt install sudo vim ufw libpam-pwquality -y
 apt apt-get https://losst.ru/apt-vs-apt-get-v-chem-raznitsa  
 `systemctl reboot`  
 `systemctl poweroff`  
+  
+разбивка диска https://losst.ru/razbivka-diska-dlya-ustanovki-linux  
+https://habr.com/ru/post/60265/  
+LVM https://losst.ru/sozdanie-i-nastrojka-lvm-linux  
+
 
 useful videos:  
 https://www.youtube.com/watch?v=mwSwiq_4Cw0  
