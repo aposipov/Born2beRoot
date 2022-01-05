@@ -2,7 +2,7 @@
 
 `/etc/ssh/sshd_config`  
 Port 4242  
-PermitRootLogin: no  
+PermitRootLogin no  
   
 `/etc/sudoers`  
 Defaults  badpass_message="Your phrase"  
